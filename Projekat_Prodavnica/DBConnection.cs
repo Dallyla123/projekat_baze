@@ -10,7 +10,7 @@ namespace Projekat_Prodavnica
     {
         public string MyConection()
         {
-            string con = "Data Source = DESKTOP-MDQ23VJ; Initial Catalog = Prodavnica; Integrated Security = True";
+            string con = "Data Source=SQL8001.site4now.net;Initial Catalog=db_a85806_prodavnicadb;User Id=db_a85806_prodavnicadb_admin;Password=onlinebaza2";
             return con;
         }
     }
